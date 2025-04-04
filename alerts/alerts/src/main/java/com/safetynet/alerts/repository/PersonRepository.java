@@ -30,4 +30,12 @@ public class PersonRepository {
     private String generateKey(String firstName, String lastName) {
         return firstName.toLowerCase() + "_" + lastName.toLowerCase();
     }
+
+    public List<Person> findAll() {
+        return new ArrayList<>(personMap.values());
+    }
+
+    public void clear() {
+        personMap.clear();
+    }    
 }

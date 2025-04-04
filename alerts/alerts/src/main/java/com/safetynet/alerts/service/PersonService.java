@@ -2,6 +2,9 @@ package com.safetynet.alerts.service;
 
 import com.safetynet.alerts.model.Person;
 import com.safetynet.alerts.repository.PersonRepository;
+
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -34,5 +37,9 @@ public class PersonService {
             throw new IllegalArgumentException("Impossible de supprimer : personne non trouvée.");
         }
         repository.delete(firstName, lastName);
+    }
+
+    public List<Person> getAllPersons() {
+        return repository.findAll();
     }
 }

@@ -8,6 +8,9 @@ public class Person {
     private String zip;
     private String phone;
     private String email;
+
+    public Person() {}
+    
     public String getFirstName() {
         return firstName;
     }

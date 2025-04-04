@@ -2,6 +2,9 @@ package com.safetynet.alerts.controller;
 
 import com.safetynet.alerts.model.Person;
 import com.safetynet.alerts.service.PersonService;
+
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -40,8 +43,7 @@ public class PersonController {
     @DeleteMapping
     public ResponseEntity<String> deletePerson(
             @RequestParam String firstName,
-            @RequestParam String lastName
-    ) {
+            @RequestParam String lastName) {
         try {
             service.deletePerson(firstName, lastName);
             return ResponseEntity.ok("Personne supprimée avec succès.");
@@ -49,4 +51,10 @@ public class PersonController {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
+
+    @GetMapping
+    public ResponseEntity<List<Person>> getAllPersons() {
+        return ResponseEntity.ok(service.getAllPersons());
+    }
+
 }
