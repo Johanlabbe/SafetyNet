@@ -1,0 +1,427 @@
+2025-05-01 09:03:35.886 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 542 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:03:35.899 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:03:35.900 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:03:40.738 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:03:40.739 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:03:40.743 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 09:03:40.801 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.409 seconds (process running for 9.112)
+2025-05-01 09:05:14.760 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 745 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:05:14.763 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:05:14.763 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:05:19.456 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:05:19.457 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:05:19.460 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-05-01 09:05:19.520 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.295 seconds (process running for 9.469)
+2025-05-01 09:09:21.517 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 1197 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:09:21.520 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:09:21.521 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:09:26.265 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:09:26.266 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:09:26.271 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2025-05-01 09:09:26.349 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.357 seconds (process running for 9.527)
+2025-05-01 09:11:55.536 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 1845 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:11:55.539 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:11:55.540 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:12:00.333 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:12:00.334 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:12:00.338 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2025-05-01 09:12:00.402 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.269 seconds (process running for 8.802)
+2025-05-01 09:15:12.412 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 2162 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:15:12.416 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:15:12.417 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:15:17.209 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:15:17.211 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:15:17.214 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 09:15:17.279 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.294 seconds (process running for 8.844)
+2025-05-01 09:16:02.671 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 2405 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:16:02.675 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:16:02.676 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:16:07.476 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:16:07.477 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:16:07.480 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-05-01 09:16:07.542 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.483 seconds (process running for 9.704)
+2025-05-01 09:17:22.427 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 2652 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:17:22.431 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:17:22.432 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:17:27.439 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:17:27.440 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:17:27.443 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-05-01 09:17:27.512 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.56 seconds (process running for 9.767)
+2025-05-01 09:31:07.967 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17 with PID 20500 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 09:31:07.969 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:31:07.969 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:31:09.964 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:31:09.964 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:31:09.967 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 09:31:10.039 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 2.527 seconds (process running for 3.47)
+2025-05-01 09:31:14.374 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17 with PID 21404 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 09:31:14.376 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:31:14.377 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:31:16.387 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:31:16.388 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:31:16.389 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 09:31:16.457 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 2.53 seconds (process running for 3.299)
+2025-05-01 09:31:20.289 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17 with PID 35708 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 09:31:20.291 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:31:20.292 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:31:22.252 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:31:22.253 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:31:22.254 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 09:31:22.323 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 2.48 seconds (process running for 3.237)
+2025-05-01 09:33:26.342 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 3158 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:33:26.345 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:33:26.346 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:33:31.241 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:33:31.242 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:33:31.246 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-05-01 09:33:31.314 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.193 seconds (process running for 10.073)
+2025-05-01 09:33:32.545 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Starting CommunityEmailControllerTest using Java 17.0.9 with PID 3158 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:33:32.546 [main] DEBUG c.s.a.c.CommunityEmailControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:33:32.546 [main] INFO  c.s.a.c.CommunityEmailControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:33:33.240 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:33:33.241 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:33:33.242 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 09:33:33.251 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Started CommunityEmailControllerTest in 0.797 seconds (process running for 12.01)
+2025-05-01 09:33:33.261 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : PARIS
+2025-05-01 09:33:33.274 [main] INFO  c.s.a.c.CommunityEmailController - 2 emails trouvés pour la ville PARIS
+2025-05-01 09:33:33.392 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nowhere
+2025-05-01 09:33:33.392 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nowhere
+2025-05-01 09:33:33.401 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nice
+2025-05-01 09:33:33.402 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nice
+2025-05-01 09:42:08.600 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 3487 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:42:08.603 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:42:08.604 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:42:13.465 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:42:13.467 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:42:13.471 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-05-01 09:42:13.537 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.608 seconds (process running for 10.113)
+2025-05-01 09:42:14.860 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Starting CommunityEmailControllerTest using Java 17.0.9 with PID 3487 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:42:14.861 [main] DEBUG c.s.a.c.CommunityEmailControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:42:14.861 [main] INFO  c.s.a.c.CommunityEmailControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:42:15.544 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:42:15.544 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:42:15.545 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 09:42:15.554 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Started CommunityEmailControllerTest in 0.781 seconds (process running for 12.13)
+2025-05-01 09:42:15.561 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : PARIS
+2025-05-01 09:42:15.569 [main] INFO  c.s.a.c.CommunityEmailController - 2 emails trouvés pour la ville PARIS
+2025-05-01 09:42:15.676 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nowhere
+2025-05-01 09:42:15.677 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nowhere
+2025-05-01 09:42:15.684 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nice
+2025-05-01 09:42:15.685 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nice
+2025-05-01 09:42:15.832 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17.0.9 with PID 3487 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:42:15.833 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:42:15.833 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:42:16.476 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:42:16.477 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:42:16.478 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 09:42:16.484 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 0.726 seconds (process running for 13.061)
+2025-05-01 09:44:19.594 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 3711 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:44:19.598 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:44:19.599 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:44:25.570 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:44:25.571 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:44:25.576 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2025-05-01 09:44:25.642 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 7.765 seconds (process running for 12.077)
+2025-05-01 09:44:26.887 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Starting CommunityEmailControllerTest using Java 17.0.9 with PID 3711 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:44:26.888 [main] DEBUG c.s.a.c.CommunityEmailControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:44:26.888 [main] INFO  c.s.a.c.CommunityEmailControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:44:27.102 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:44:27.103 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:44:27.105 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 09:44:27.114 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Started CommunityEmailControllerTest in 0.313 seconds (process running for 14.029)
+2025-05-01 09:44:27.124 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : PARIS
+2025-05-01 09:44:27.131 [main] INFO  c.s.a.c.CommunityEmailController - 2 emails trouvés pour la ville PARIS
+2025-05-01 09:44:27.250 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nowhere
+2025-05-01 09:44:27.251 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nowhere
+2025-05-01 09:44:27.259 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nice
+2025-05-01 09:44:27.260 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nice
+2025-05-01 09:44:27.421 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17.0.9 with PID 3711 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:44:27.422 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:44:27.422 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:44:28.089 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:44:28.090 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:44:28.090 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 09:44:28.097 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 0.759 seconds (process running for 15.012)
+2025-05-01 09:45:55.738 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17 with PID 34652 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 09:45:55.740 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:45:55.742 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:45:57.703 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:45:57.704 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:45:57.706 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 09:45:57.789 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 2.496 seconds (process running for 3.217)
+2025-05-01 09:46:26.204 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17 with PID 31148 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 09:46:26.205 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:46:26.207 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:46:28.144 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:46:28.144 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:46:28.147 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-05-01 09:46:28.197 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 2.461 seconds (process running for 3.37)
+2025-05-01 09:47:12.053 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17 with PID 27500 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 09:47:12.055 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:47:12.056 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:47:13.968 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:47:13.968 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:47:13.970 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 09:47:14.019 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 2.414 seconds (process running for 3.222)
+2025-05-01 09:52:02.007 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17 with PID 20840 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 09:52:02.008 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:52:02.009 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:52:03.964 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:52:03.965 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:52:03.966 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 09:52:04.012 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 2.48 seconds (process running for 3.327)
+2025-05-01 09:52:33.191 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17 with PID 27272 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 09:52:33.192 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:52:33.193 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:52:35.244 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:52:35.245 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:52:35.247 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 09:52:35.330 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 2.591 seconds (process running for 3.335)
+2025-05-01 09:53:32.401 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17 with PID 24800 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 09:53:32.403 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:53:32.403 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:53:34.385 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:53:34.385 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:53:34.387 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 09:53:34.445 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 2.478 seconds (process running for 3.232)
+2025-05-01 09:54:29.791 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 4022 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:54:29.795 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:54:29.795 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:54:34.676 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:54:34.677 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:54:34.680 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 09:54:34.752 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.584 seconds (process running for 10.114)
+2025-05-01 09:54:35.959 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Starting CommunityEmailControllerTest using Java 17.0.9 with PID 4022 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:54:35.959 [main] DEBUG c.s.a.c.CommunityEmailControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:54:35.960 [main] INFO  c.s.a.c.CommunityEmailControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:54:36.652 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:54:36.653 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:54:36.653 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 09:54:36.662 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Started CommunityEmailControllerTest in 0.791 seconds (process running for 12.023)
+2025-05-01 09:54:36.671 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : PARIS
+2025-05-01 09:54:36.679 [main] INFO  c.s.a.c.CommunityEmailController - 2 emails trouvés pour la ville PARIS
+2025-05-01 09:54:36.797 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nowhere
+2025-05-01 09:54:36.798 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nowhere
+2025-05-01 09:54:36.806 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nice
+2025-05-01 09:54:36.806 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nice
+2025-05-01 09:54:36.954 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17.0.9 with PID 4022 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 09:54:36.954 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 09:54:36.954 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 09:54:37.586 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 09:54:37.586 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 09:54:37.587 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 09:54:37.594 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 0.715 seconds (process running for 12.955)
+2025-05-01 14:35:06.508 [main] INFO  c.s.a.c.FireStationControllerTest - Starting FireStationControllerTest using Java 17 with PID 10604 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 14:35:06.510 [main] DEBUG c.s.a.c.FireStationControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 14:35:06.512 [main] INFO  c.s.a.c.FireStationControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:35:07.288 [main] INFO  c.s.a.c.FireStationControllerTest - Starting FireStationControllerTest using Java 17 with PID 27384 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 14:35:07.291 [main] DEBUG c.s.a.c.FireStationControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 14:35:07.292 [main] INFO  c.s.a.c.FireStationControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:35:09.176 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 14:35:09.176 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 14:35:09.178 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 14:35:09.268 [main] INFO  c.s.a.c.FireStationControllerTest - Started FireStationControllerTest in 3.273 seconds (process running for 4.232)
+2025-05-01 14:35:09.779 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 14:35:09.780 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 14:35:09.783 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 14:35:09.868 [main] INFO  c.s.a.c.FireStationControllerTest - Started FireStationControllerTest in 3.074 seconds (process running for 3.979)
+2025-05-01 14:35:10.318 [main] INFO  c.s.a.c.FireStationControllerTest - Starting FireStationControllerTest using Java 17 with PID 37116 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 14:35:10.320 [main] DEBUG c.s.a.c.FireStationControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 14:35:10.321 [main] INFO  c.s.a.c.FireStationControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 14:35:12.288 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 14:35:12.288 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 14:35:12.290 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 14:35:12.355 [main] INFO  c.s.a.c.FireStationControllerTest - Started FireStationControllerTest in 2.613 seconds (process running for 3.965)
+2025-05-01 15:37:02.098 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 6725 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:37:02.102 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:37:02.103 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:37:07.488 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:37:07.489 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:37:07.494 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-05-01 15:37:07.567 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 6.837 seconds (process running for 11.238)
+2025-05-01 15:37:08.908 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Starting CommunityEmailControllerTest using Java 17.0.9 with PID 6725 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:37:08.909 [main] DEBUG c.s.a.c.CommunityEmailControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:37:08.910 [main] INFO  c.s.a.c.CommunityEmailControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:37:09.632 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:37:09.633 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:37:09.634 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 15:37:09.645 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Started CommunityEmailControllerTest in 0.848 seconds (process running for 13.316)
+2025-05-01 15:37:09.654 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : PARIS
+2025-05-01 15:37:09.663 [main] INFO  c.s.a.c.CommunityEmailController - 2 emails trouvés pour la ville PARIS
+2025-05-01 15:37:09.779 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nowhere
+2025-05-01 15:37:09.780 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nowhere
+2025-05-01 15:37:09.787 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nice
+2025-05-01 15:37:09.788 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nice
+2025-05-01 15:37:09.952 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17.0.9 with PID 6725 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:37:09.952 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:37:09.953 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:37:10.665 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:37:10.665 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:37:10.666 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 15:37:10.675 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 0.804 seconds (process running for 14.346)
+2025-05-01 15:37:10.888 [main] INFO  c.s.a.c.FireStationControllerTest - Starting FireStationControllerTest using Java 17.0.9 with PID 6725 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:37:10.889 [main] DEBUG c.s.a.c.FireStationControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:37:10.889 [main] INFO  c.s.a.c.FireStationControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:37:11.018 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:37:11.018 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:37:11.019 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 15:37:11.024 [main] INFO  c.s.a.c.FireStationControllerTest - Started FireStationControllerTest in 0.215 seconds (process running for 15.197)
+2025-05-01 15:41:35.858 [main] INFO  c.s.a.c.FloodStationsControllerTest - Starting FloodStationsControllerTest using Java 17 with PID 30340 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 15:41:35.860 [main] DEBUG c.s.a.c.FloodStationsControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:41:35.861 [main] INFO  c.s.a.c.FloodStationsControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:41:37.962 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:41:37.963 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:41:37.965 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 15:41:38.018 [main] INFO  c.s.a.c.FloodStationsControllerTest - Started FloodStationsControllerTest in 2.617 seconds (process running for 3.478)
+2025-05-01 15:49:51.500 [main] INFO  c.s.a.c.FloodStationsControllerTest - Starting FloodStationsControllerTest using Java 17 with PID 1908 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 15:49:51.502 [main] DEBUG c.s.a.c.FloodStationsControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:49:51.502 [main] INFO  c.s.a.c.FloodStationsControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:49:53.617 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:49:53.618 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:49:53.621 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-05-01 15:49:53.689 [main] INFO  c.s.a.c.FloodStationsControllerTest - Started FloodStationsControllerTest in 2.63 seconds (process running for 3.392)
+2025-05-01 15:53:22.132 [main] INFO  c.s.a.c.PersonInfoControllerTest - Starting PersonInfoControllerTest using Java 17 with PID 14704 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 15:53:22.134 [main] DEBUG c.s.a.c.PersonInfoControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:53:22.135 [main] INFO  c.s.a.c.PersonInfoControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:53:24.382 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:53:24.383 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:53:24.385 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 15:53:24.453 [main] INFO  c.s.a.c.PersonInfoControllerTest - Started PersonInfoControllerTest in 2.814 seconds (process running for 3.712)
+2025-05-01 15:54:02.662 [main] INFO  c.s.a.c.PhoneAlertControllerTest - Starting PhoneAlertControllerTest using Java 17 with PID 20152 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 15:54:02.664 [main] DEBUG c.s.a.c.PhoneAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:54:02.665 [main] INFO  c.s.a.c.PhoneAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:54:04.819 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:54:04.820 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:54:04.822 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 15:54:04.876 [main] INFO  c.s.a.c.PhoneAlertControllerTest - Started PhoneAlertControllerTest in 2.685 seconds (process running for 3.456)
+2025-05-01 15:55:02.481 [main] INFO  c.s.a.c.MedicalRecordControllerTest - Starting MedicalRecordControllerTest using Java 17 with PID 36684 (started by Johan Labbe in C:\Users\Johan Labbe\Desktop\workspace\Java\OC\SafetyNet\alerts\alerts)
+2025-05-01 15:55:02.483 [main] DEBUG c.s.a.c.MedicalRecordControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:55:02.483 [main] INFO  c.s.a.c.MedicalRecordControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:55:04.515 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:55:04.516 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:55:04.518 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 15:55:04.605 [main] INFO  c.s.a.c.MedicalRecordControllerTest - Started MedicalRecordControllerTest in 2.575 seconds (process running for 3.348)
+2025-05-01 15:54:36.032 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 7193 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:54:36.036 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:54:36.037 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:54:41.355 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:54:41.356 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:54:41.361 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2025-05-01 15:54:41.438 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 7.105 seconds (process running for 10.944)
+2025-05-01 15:54:42.805 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Starting CommunityEmailControllerTest using Java 17.0.9 with PID 7193 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:54:42.806 [main] DEBUG c.s.a.c.CommunityEmailControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:54:42.806 [main] INFO  c.s.a.c.CommunityEmailControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:54:43.086 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:54:43.087 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:54:43.088 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 15:54:43.098 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Started CommunityEmailControllerTest in 0.385 seconds (process running for 13.104)
+2025-05-01 15:54:43.108 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : PARIS
+2025-05-01 15:54:43.118 [main] INFO  c.s.a.c.CommunityEmailController - 2 emails trouvés pour la ville PARIS
+2025-05-01 15:54:43.224 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nowhere
+2025-05-01 15:54:43.225 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nowhere
+2025-05-01 15:54:43.234 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nice
+2025-05-01 15:54:43.235 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nice
+2025-05-01 15:54:43.396 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17.0.9 with PID 7193 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:54:43.396 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:54:43.397 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:54:44.099 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:54:44.100 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:54:44.100 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 15:54:44.109 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 0.792 seconds (process running for 14.115)
+2025-05-01 15:54:44.323 [main] INFO  c.s.a.c.FireStationControllerTest - Starting FireStationControllerTest using Java 17.0.9 with PID 7193 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:54:44.324 [main] DEBUG c.s.a.c.FireStationControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:54:44.325 [main] INFO  c.s.a.c.FireStationControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:54:44.966 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:54:44.967 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:54:44.968 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 15:54:44.975 [main] INFO  c.s.a.c.FireStationControllerTest - Started FireStationControllerTest in 0.726 seconds (process running for 14.981)
+2025-05-01 15:54:45.153 [main] INFO  c.s.a.c.FloodStationsControllerTest - Starting FloodStationsControllerTest using Java 17.0.9 with PID 7193 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:54:45.153 [main] DEBUG c.s.a.c.FloodStationsControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:54:45.154 [main] INFO  c.s.a.c.FloodStationsControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:54:45.773 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:54:45.773 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:54:45.774 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 15:54:45.780 [main] INFO  c.s.a.c.FloodStationsControllerTest - Started FloodStationsControllerTest in 0.696 seconds (process running for 15.786)
+2025-05-01 15:54:45.961 [main] INFO  c.s.a.c.MedicalRecordControllerTest - Starting MedicalRecordControllerTest using Java 17.0.9 with PID 7193 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:54:45.962 [main] DEBUG c.s.a.c.MedicalRecordControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:54:45.962 [main] INFO  c.s.a.c.MedicalRecordControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:54:46.598 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:54:46.599 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:54:46.599 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 15:54:46.604 [main] INFO  c.s.a.c.MedicalRecordControllerTest - Started MedicalRecordControllerTest in 0.712 seconds (process running for 16.61)
+2025-05-01 15:54:46.958 [main] INFO  c.s.a.c.PersonInfoControllerTest - Starting PersonInfoControllerTest using Java 17.0.9 with PID 7193 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:54:46.959 [main] DEBUG c.s.a.c.PersonInfoControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:54:46.959 [main] INFO  c.s.a.c.PersonInfoControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:54:47.550 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:54:47.551 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:54:47.551 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 15:54:47.557 [main] INFO  c.s.a.c.PersonInfoControllerTest - Started PersonInfoControllerTest in 0.677 seconds (process running for 17.563)
+2025-05-01 15:54:47.692 [main] INFO  c.s.a.c.PhoneAlertControllerTest - Starting PhoneAlertControllerTest using Java 17.0.9 with PID 7193 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 15:54:47.693 [main] DEBUG c.s.a.c.PhoneAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 15:54:47.693 [main] INFO  c.s.a.c.PhoneAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 15:54:47.757 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 15:54:47.758 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 15:54:47.758 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 15:54:47.762 [main] INFO  c.s.a.c.PhoneAlertControllerTest - Started PhoneAlertControllerTest in 0.132 seconds (process running for 18.268)
+2025-05-01 16:01:55.875 [main] INFO  c.s.a.c.ChildAlertControllerTest - Starting ChildAlertControllerTest using Java 17.0.9 with PID 7540 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 16:01:55.878 [main] DEBUG c.s.a.c.ChildAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 16:01:55.879 [main] INFO  c.s.a.c.ChildAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 16:02:01.101 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 16:02:01.102 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 16:02:01.106 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2025-05-01 16:02:01.182 [main] INFO  c.s.a.c.ChildAlertControllerTest - Started ChildAlertControllerTest in 7.043 seconds (process running for 10.891)
+2025-05-01 16:02:02.584 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Starting CommunityEmailControllerTest using Java 17.0.9 with PID 7540 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 16:02:02.584 [main] DEBUG c.s.a.c.CommunityEmailControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 16:02:02.585 [main] INFO  c.s.a.c.CommunityEmailControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 16:02:03.350 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 16:02:03.351 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 16:02:03.353 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-05-01 16:02:03.365 [main] INFO  c.s.a.c.CommunityEmailControllerTest - Started CommunityEmailControllerTest in 0.881 seconds (process running for 13.075)
+2025-05-01 16:02:03.377 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : PARIS
+2025-05-01 16:02:03.389 [main] INFO  c.s.a.c.CommunityEmailController - 2 emails trouvés pour la ville PARIS
+2025-05-01 16:02:03.513 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nowhere
+2025-05-01 16:02:03.515 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nowhere
+2025-05-01 16:02:03.526 [main] DEBUG c.s.a.c.CommunityEmailController - Requête de récupération des emails pour la ville : Nice
+2025-05-01 16:02:03.528 [main] INFO  c.s.a.c.CommunityEmailController - Aucun email trouvé pour la ville : Nice
+2025-05-01 16:02:03.685 [main] INFO  c.s.a.controller.FireControllerTest - Starting FireControllerTest using Java 17.0.9 with PID 7540 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 16:02:03.686 [main] DEBUG c.s.a.controller.FireControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 16:02:03.686 [main] INFO  c.s.a.controller.FireControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 16:02:03.863 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 16:02:03.864 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 16:02:03.864 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 16:02:03.871 [main] INFO  c.s.a.controller.FireControllerTest - Started FireControllerTest in 0.26 seconds (process running for 14.081)
+2025-05-01 16:02:04.071 [main] INFO  c.s.a.c.FireStationControllerTest - Starting FireStationControllerTest using Java 17.0.9 with PID 7540 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 16:02:04.072 [main] DEBUG c.s.a.c.FireStationControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 16:02:04.072 [main] INFO  c.s.a.c.FireStationControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 16:02:04.736 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 16:02:04.736 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 16:02:04.737 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 16:02:04.743 [main] INFO  c.s.a.c.FireStationControllerTest - Started FireStationControllerTest in 0.753 seconds (process running for 14.954)
+2025-05-01 16:02:04.921 [main] INFO  c.s.a.c.FloodStationsControllerTest - Starting FloodStationsControllerTest using Java 17.0.9 with PID 7540 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 16:02:04.921 [main] DEBUG c.s.a.c.FloodStationsControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 16:02:04.922 [main] INFO  c.s.a.c.FloodStationsControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 16:02:05.587 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 16:02:05.588 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 16:02:05.589 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-05-01 16:02:05.594 [main] INFO  c.s.a.c.FloodStationsControllerTest - Started FloodStationsControllerTest in 0.748 seconds (process running for 15.805)
+2025-05-01 16:02:05.773 [main] INFO  c.s.a.c.MedicalRecordControllerTest - Starting MedicalRecordControllerTest using Java 17.0.9 with PID 7540 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 16:02:05.773 [main] DEBUG c.s.a.c.MedicalRecordControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 16:02:05.774 [main] INFO  c.s.a.c.MedicalRecordControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 16:02:06.410 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 16:02:06.411 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 16:02:06.411 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 16:02:06.416 [main] INFO  c.s.a.c.MedicalRecordControllerTest - Started MedicalRecordControllerTest in 0.712 seconds (process running for 16.626)
+2025-05-01 16:02:06.739 [main] INFO  c.s.a.c.PersonInfoControllerTest - Starting PersonInfoControllerTest using Java 17.0.9 with PID 7540 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 16:02:06.740 [main] DEBUG c.s.a.c.PersonInfoControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 16:02:06.740 [main] INFO  c.s.a.c.PersonInfoControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 16:02:07.331 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 16:02:07.332 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 16:02:07.332 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 16:02:07.338 [main] INFO  c.s.a.c.PersonInfoControllerTest - Started PersonInfoControllerTest in 0.665 seconds (process running for 17.549)
+2025-05-01 16:02:07.493 [main] INFO  c.s.a.c.PhoneAlertControllerTest - Starting PhoneAlertControllerTest using Java 17.0.9 with PID 7540 (started by root in /mnt/c/Users/Johan Labbe/Desktop/workspace/Java/OC/SafetyNet/alerts/alerts)
+2025-05-01 16:02:07.493 [main] DEBUG c.s.a.c.PhoneAlertControllerTest - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-01 16:02:07.494 [main] INFO  c.s.a.c.PhoneAlertControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 16:02:08.083 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-05-01 16:02:08.084 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-05-01 16:02:08.084 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-05-01 16:02:08.088 [main] INFO  c.s.a.c.PhoneAlertControllerTest - Started PhoneAlertControllerTest in 0.665 seconds (process running for 18.299)

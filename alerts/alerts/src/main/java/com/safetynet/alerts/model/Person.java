@@ -1,5 +1,8 @@
 package com.safetynet.alerts.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Person {
     private String firstName;
     private String lastName;
@@ -8,6 +11,8 @@ public class Person {
     private String zip;
     private String phone;
     private String email;
+
+     private List<MedicalRecord> medicalRecords = new ArrayList<>();
 
     public Person() {}
     
@@ -52,5 +57,13 @@ public class Person {
     }
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public List<MedicalRecord> getMedicalRecords() {
+        return medicalRecords;
+    }
+
+    public void addMedicalRecord(MedicalRecord record) {
+        this.medicalRecords.add(record);
     }
 }

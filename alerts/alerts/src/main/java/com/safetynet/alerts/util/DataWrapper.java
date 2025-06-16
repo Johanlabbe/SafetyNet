@@ -6,10 +6,13 @@ import com.safetynet.alerts.model.FireStation;
 import com.safetynet.alerts.model.MedicalRecord;
 import com.safetynet.alerts.model.Person;
 
+
+
 public class DataWrapper {
     private List<Person> persons;
     private List<FireStation> firestations;
     private List<MedicalRecord> medicalrecords;
+    
     public List<Person> getPersons() {
         return persons;
     }
