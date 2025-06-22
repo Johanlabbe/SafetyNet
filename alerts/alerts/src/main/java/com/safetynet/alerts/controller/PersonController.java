@@ -2,6 +2,8 @@ package com.safetynet.alerts.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -9,12 +11,11 @@ import org.springframework.web.bind.annotation.*;
 import com.safetynet.alerts.model.Person;
 import com.safetynet.alerts.service.PersonService;
 
-
-
 @RestController
 @RequestMapping("/person")
 public class PersonController {
 
+    private static final Logger logger = LoggerFactory.getLogger(PersonController.class);
     private final PersonService service;
 
     /**
@@ -37,10 +38,14 @@ public class PersonController {
      */
     @PostMapping
     public ResponseEntity<String> addPerson(@RequestBody Person person) {
+        logger.debug("Requête POST /person avec Person : {}", person);
         try {
             service.addPerson(person);
+            logger.info("Personne ajoutée : {} {}", person.getFirstName(), person.getLastName());
             return ResponseEntity.ok("Personne ajoutée avec succès.");
         } catch (IllegalArgumentException e) {
+            logger.warn("Échec ajout Personne {} {} : {}",
+                    person.getFirstName(), person.getLastName(), e.getMessage());
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
@@ -55,10 +60,14 @@ public class PersonController {
      */
     @PutMapping
     public ResponseEntity<String> updatePerson(@RequestBody Person person) {
+        logger.debug("Requête PUT /person avec Person : {}", person);
         try {
             service.updatePerson(person);
+            logger.info("Personne mise à jour : {} {}", person.getFirstName(), person.getLastName());
             return ResponseEntity.ok("Personne mise à jour avec succès.");
         } catch (IllegalArgumentException e) {
+            logger.warn("Échec mise à jour Personne {} {} : {}",
+                    person.getFirstName(), person.getLastName(), e.getMessage());
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
@@ -76,10 +85,14 @@ public class PersonController {
     public ResponseEntity<String> deletePerson(
             @RequestParam String firstName,
             @RequestParam String lastName) {
+        logger.debug("Requête DELETE /person pour : {} {}", firstName, lastName);
         try {
             service.deletePerson(firstName, lastName);
+            logger.info("Personne supprimée : {} {}", firstName, lastName);
             return ResponseEntity.ok("Personne supprimée avec succès.");
         } catch (IllegalArgumentException e) {
+            logger.warn("Échec suppression Personne {} {} : {}",
+                    firstName, lastName, e.getMessage());
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
@@ -93,7 +106,10 @@ public class PersonController {
      */
     @GetMapping
     public ResponseEntity<List<Person>> getAllPersons() {
-        return ResponseEntity.ok(service.getAllPersons());
+        logger.debug("Requête GET /person");
+        List<Person> persons = service.getAllPersons();
+        logger.info("{} personnes récupérées", persons.size());
+        
+        return ResponseEntity.ok(persons);
     }
-
 }

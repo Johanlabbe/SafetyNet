@@ -1,5 +1,6 @@
 package com.safetynet.alerts.controller;
 
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,9 +16,14 @@ import java.time.Period;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 @RestController
 @RequestMapping("/childAlert")
 public class ChildAlertController {
+
+    private static final Logger logger = LoggerFactory.getLogger(ChildAlertController.class);
 
     private final PersonRepository personRepository;
     private final MedicalRecordRepository medicalRecordRepository;
@@ -26,32 +32,36 @@ public class ChildAlertController {
      * Crée une instance de ChildAlertController.
      *
      * @param personRepository        repository pour accéder aux données Person
-     * @param medicalRecordRepository repository pour accéder aux données MedicalRecord
+     * @param medicalRecordRepository repository pour accéder aux données
+     *                                MedicalRecord
      */
     public ChildAlertController(PersonRepository personRepository,
-                                MedicalRecordRepository medicalRecordRepository) {
+            MedicalRecordRepository medicalRecordRepository) {
         this.personRepository = personRepository;
         this.medicalRecordRepository = medicalRecordRepository;
     }
 
     /**
-     * GET  /childAlert?address={address}
+     * GET /childAlert?address={address}
      * <p>
      * Récupère tous les enfants (<= 18 ans) habitant à l'adresse spécifiée,
      * et liste leurs autres membres de foyer.
      *
      * @param address l'adresse à interroger (obligatoire)
-     * @return ResponseEntity contenant la liste des ChildAlertDTO, ou 404 if no persons at that address
+     * @return ResponseEntity contenant la liste des ChildAlertDTO, ou 404 if no
+     *         persons at that address
      */
     @GetMapping
     public ResponseEntity<List<ChildAlertDTO>> getChildrenByAddress(@RequestParam("address") String address) {
+        logger.debug("Requête de récupération des enfants pour l'adresse : {}", address);
         List<Person> personsAtAddress = personRepository.findByAddress(address);
         if (personsAtAddress.isEmpty()) {
+            logger.info("Aucun enfant trouvé pour l'adresse : {}", address);
             return ResponseEntity.notFound().build();
         }
-        
+
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
-        
+
         List<ChildAlertDTO> children = personsAtAddress.stream().map(person -> {
             MedicalRecord mr = medicalRecordRepository.findByName(person.getFirstName(), person.getLastName());
             int age = 0;
@@ -63,29 +73,30 @@ public class ChildAlertController {
                     age = 0;
                 }
             }
-            return new Object[]{ person, age };
+            return new Object[] { person, age };
         })
-        .filter(obj -> (int)obj[1] <= 18)
-        .map(obj -> {
-            Person child = (Person)obj[0];
-            int age = (int)obj[1];
-            
-            ChildAlertDTO dto = new ChildAlertDTO();
-            dto.setFirstName(child.getFirstName());
-            dto.setLastName(child.getLastName());
-            dto.setAge(age);
-            
-            List<String> householdMembers = personsAtAddress.stream()
-                    .filter(p -> !(p.getFirstName().equals(child.getFirstName()) 
-                                && p.getLastName().equals(child.getLastName())))
-                    .map(p -> p.getFirstName() + " " + p.getLastName())
-                    .collect(Collectors.toList());
-                    
-            dto.setHouseholdMembers(householdMembers);
-            return dto;
-        })
-        .collect(Collectors.toList());
-        
+                .filter(obj -> (int) obj[1] <= 18)
+                .map(obj -> {
+                    Person child = (Person) obj[0];
+                    int age = (int) obj[1];
+
+                    ChildAlertDTO dto = new ChildAlertDTO();
+                    dto.setFirstName(child.getFirstName());
+                    dto.setLastName(child.getLastName());
+                    dto.setAge(age);
+
+                    List<String> householdMembers = personsAtAddress.stream()
+                            .filter(p -> !(p.getFirstName().equals(child.getFirstName())
+                                    && p.getLastName().equals(child.getLastName())))
+                            .map(p -> p.getFirstName() + " " + p.getLastName())
+                            .collect(Collectors.toList());
+
+                    dto.setHouseholdMembers(householdMembers);
+                    return dto;
+                })
+                .collect(Collectors.toList());
+                
+        logger.info("{} enfants trouvés pour l'adresse {}", children.size(), address);
         return ResponseEntity.ok(children);
     }
 }

@@ -1,5 +1,7 @@
 package com.safetynet.alerts.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,6 +24,8 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/fire")
 public class FireController {
+
+    private static final Logger logger = LoggerFactory.getLogger(FireController.class);
 
     private final PersonRepository personRepository;
     private final MedicalRecordRepository medicalRecordRepository;
@@ -57,8 +61,10 @@ public class FireController {
      */
     @GetMapping
     public ResponseEntity<FireResponseDTO> getPersonsByAddress(@RequestParam("address") String address) {
+        logger.debug("Requête getPersonsByAddress pour l'adresse : {}", address);
         List<Person> personsAtAddress = personRepository.findByAddress(address);
         if (personsAtAddress.isEmpty()) {
+            logger.info("Aucune personne trouvée pour l'adresse : {}", address);
             return ResponseEntity.notFound().build();
         }
 
@@ -77,6 +83,8 @@ public class FireController {
                     LocalDate birthDate = LocalDate.parse(mr.getBirthdate(), formatter);
                     age = Period.between(birthDate, LocalDate.now()).getYears();
                 } catch (Exception e) {
+                    logger.warn("Impossible de parser la date de naissance pour {} {} : {}", 
+                                person.getFirstName(), person.getLastName(), e.getMessage());
                     age = 0;
                 }
             }
@@ -92,10 +100,10 @@ public class FireController {
                 .stream()
                 .filter(fs -> fs.getAddress().equalsIgnoreCase(address))
                 .findFirst();
-
         String fireStationNumber = fireStationOpt.map(FireStation::getStation).orElse("Non assigné");
 
-        // Construire le DTO global de réponse
+        logger.info("{} personnes trouvées pour l'adresse {}", personDTOs.size(), address);
+        
         FireResponseDTO responseDTO = new FireResponseDTO();
         responseDTO.setFireStationNumber(fireStationNumber);
         responseDTO.setPersons(personDTOs);

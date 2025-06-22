@@ -1,5 +1,8 @@
 package com.safetynet.alerts.controller;
 
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,6 +17,8 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/phoneAlert")
 public class PhoneAlertController {
+
+    private static final Logger logger = LoggerFactory.getLogger(PhoneAlertController.class);
 
     private final FireStationRepository fireStationRepository;
     private final PersonRepository personRepository;
@@ -43,12 +48,14 @@ public class PhoneAlertController {
      */
     @GetMapping
     public ResponseEntity<Set<String>> getPhoneNumbersByFireStation(@RequestParam("firestation") String firestationNumber) {
+        logger.debug("Requête GET /phoneAlert pour la station : {}", firestationNumber);
         List<FireStation> stations = fireStationRepository.findAll()
                 .stream()
                 .filter(fs -> firestationNumber.equals(fs.getStation()))
                 .collect(Collectors.toList());
 
         if (stations.isEmpty()) {
+                        logger.info("Aucune station trouvée pour le numéro : {}", firestationNumber);
             return ResponseEntity.notFound().build();
         }
 
@@ -61,6 +68,7 @@ public class PhoneAlertController {
                 .map(Person::getPhone)
                 .collect(Collectors.toSet());
 
+                 logger.info("{} numéros de téléphone trouvés pour la station {}", phoneNumbers.size(), firestationNumber);
         return ResponseEntity.ok(phoneNumbers);
     }
 }

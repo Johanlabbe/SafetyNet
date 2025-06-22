@@ -56,5 +56,3 @@ public class CommunityEmailController {
         return ResponseEntity.ok(emails);
     }
 }
-
-

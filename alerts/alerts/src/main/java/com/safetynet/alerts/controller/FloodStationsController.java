@@ -1,5 +1,7 @@
 package com.safetynet.alerts.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,6 +24,8 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/flood")
 public class FloodStationsController {
+
+    private static final Logger logger = LoggerFactory.getLogger(FloodStationsController.class);
 
     private final FireStationRepository fireStationRepository;
     private final PersonRepository personRepository;
@@ -60,6 +64,7 @@ public class FloodStationsController {
      */
     @GetMapping("/stations")
     public ResponseEntity<FloodStationsResponseDTO> getHouseholdsByStations(@RequestParam("stations") String stationsParam) {
+        logger.debug("Requête de récupération des foyers inondés pour les stations : {}", stationsParam);
         List<String> stationNumbers = Arrays.stream(stationsParam.split(","))
                                             .map(String::trim)
                                             .collect(Collectors.toList());
@@ -69,6 +74,7 @@ public class FloodStationsController {
                 .collect(Collectors.toList());
         
         if (filteredStations.isEmpty()) {
+            logger.info("Aucune station trouvée pour les numéros : {}", stationNumbers);
             return ResponseEntity.notFound().build();
         }
         
@@ -102,6 +108,8 @@ public class FloodStationsController {
                         LocalDate birthDate = LocalDate.parse(mr.getBirthdate(), formatter);
                         age = Period.between(birthDate, LocalDate.now()).getYears();
                     } catch (Exception e) {
+                        logger.warn("Impossible de parser la date de naissance pour {} {} : {}", 
+                                    person.getFirstName(), person.getLastName(), e.getMessage());
                         age = 0;
                     }
                 }
@@ -118,6 +126,8 @@ public class FloodStationsController {
             householdDTO.setResidents(residentDTOs);
             return householdDTO;
         }).collect(Collectors.toList());
+        
+        logger.info("{} foyers trouvés pour les stations : {}", households.size(), stationNumbers);
         
         FloodStationsResponseDTO response = new FloodStationsResponseDTO();
         response.setHouseholds(households);

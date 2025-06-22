@@ -1,5 +1,7 @@
 package com.safetynet.alerts.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,6 +14,7 @@ import java.util.List;
 @RequestMapping("/medicalRecord")
 public class MedicalRecordController {
 
+    private static final Logger logger = LoggerFactory.getLogger(MedicalRecordController.class);
     private final MedicalRecordService service;
 
     /**
@@ -33,7 +36,9 @@ public class MedicalRecordController {
      */
     @PostMapping
     public ResponseEntity<String> addMedicalRecord(@RequestBody MedicalRecord mr) {
+        logger.debug("Requête POST /medicalRecord avec le dossier médical : {}", mr);
         service.addMedicalRecord(mr);
+        logger.info("Dossier médical ajouté pour {} {}", mr.getFirstName(), mr.getLastName());
         return ResponseEntity.ok("Dossier médical ajouté.");
     }
 
@@ -46,6 +51,10 @@ public class MedicalRecordController {
      */
     @GetMapping
     public ResponseEntity<List<MedicalRecord>> getAllMedicalRecords() {
-        return ResponseEntity.ok(service.getAllMedicalRecords());
+        logger.debug("Requête GET /medicalRecord");
+        List<MedicalRecord> records = service.getAllMedicalRecords();
+        logger.info("{} dossiers médicaux récupérés", records.size());
+        
+        return ResponseEntity.ok(records);
     }
 }

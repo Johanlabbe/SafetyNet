@@ -1,5 +1,7 @@
 package com.safetynet.alerts.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,6 +24,8 @@ import java.util.stream.Collectors;
 @RequestMapping("/firestation")
 public class FireStationController {
 
+    private static final Logger logger = LoggerFactory.getLogger(FireController.class);
+
     private final FireStationRepository fireStationRepository;
     private final PersonRepository personRepository;
     private final MedicalRecordRepository medicalRecordRepository;
@@ -34,35 +38,39 @@ public class FireStationController {
      * @param medicalRecordRepository pour accéder aux données MedicalRecord
      */
     public FireStationController(FireStationRepository fireStationRepository,
-                                 PersonRepository personRepository,
-                                 MedicalRecordRepository medicalRecordRepository) {
+            PersonRepository personRepository,
+            MedicalRecordRepository medicalRecordRepository) {
         this.fireStationRepository = fireStationRepository;
         this.personRepository = personRepository;
         this.medicalRecordRepository = medicalRecordRepository;
     }
 
     /**
-     * GET  /firestation?stationNumber={stationNumber}
+     * GET /firestation?stationNumber={stationNumber}
      * <p>
      * Pour le numéro de station fourni, récupère :
      * <ul>
-     *   <li>toutes les adresses couvertes par cette station ;</li>
-     *   <li>tous les résidents de ces adresses (via PersonDTO) ;</li>
-     *   <li>le nombre d’adultes et d’enfants, calculé à partir des MedicalRecord.</li>
+     * <li>toutes les adresses couvertes par cette station ;</li>
+     * <li>tous les résidents de ces adresses (via PersonDTO) ;</li>
+     * <li>le nombre d’adultes et d’enfants, calculé à partir des
+     * MedicalRecord.</li>
      * </ul>
      *
      * @param stationNumber le numéro de la station à interroger (obligatoire)
-     * @return ResponseEntity contenant un FireStationResponseDTO avec la liste des PersonDTO
+     * @return ResponseEntity contenant un FireStationResponseDTO avec la liste des
+     *         PersonDTO
      *         et les comptes d’adultes/enfants, ou 404 si la station n’existe pas
      */
     @GetMapping(params = "stationNumber")
     public ResponseEntity<FireStationResponseDTO> getPersonsByStation(@RequestParam("stationNumber") String stationNumber) {
+        logger.debug("Requête getPersonsByAddress pour l'adresse : {}", stationNumber);
         List<FireStation> stations = fireStationRepository.findAll()
                 .stream()
                 .filter(fs -> stationNumber.equals(fs.getStation()))
                 .collect(Collectors.toList());
 
         if (stations.isEmpty()) {
+            logger.info("Aucune station trouvée avec le numéro : {}", stationNumber);
             return ResponseEntity.notFound().build();
         }
 
@@ -100,13 +108,17 @@ public class FireStationController {
                         adultCount++;
                     }
                 } catch (Exception e) {
+                    logger.warn("Impossible de parser la date de naissance pour {} {} : {}",
+                            p.getFirstName(), p.getLastName(), e.getMessage());
                     adultCount++;
                 }
             } else {
                 adultCount++;
             }
         }
-
+        logger.info("{} résidents trouvés ({} adultes, {} enfants) pour la station {}", 
+                    personDTOs.size(), adultCount, childCount, stationNumber);
+                    
         FireStationResponseDTO response = new FireStationResponseDTO();
         response.setPersons(personDTOs);
         response.setAdultCount(adultCount);
